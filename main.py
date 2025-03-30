@@ -19,7 +19,7 @@ PRETO = (0, 0, 0)
 
 # Carregar imagens
 aviao_img = pygame.image.load("./imagens/aviao.png")
-aviao_img = pygame.transform.scale(aviao_img, (40, 40))
+aviao_img = pygame.transform.scale(aviao_img, (25, 25))
 inimigo1_img = pygame.image.load("./imagens/barco.png")
 inimigo1_img = pygame.transform.scale(inimigo1_img, (40, 50))
 inimigo2_img = pygame.image.load("./imagens/helicoptero.png")
